@@ -1,0 +1,3 @@
+git remote add origin https://github.com/nscar/Oveluna1.0.git
+git push -u origin master
+git checkout -b "nombre_rama"
