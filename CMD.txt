@@ -1,3 +1,12 @@
+git init
+git status
+git branch 
+git add .  
+git commit -m "tercera versión"   
 git remote add origin https://github.com/nscar/Oveluna1.0.git
 git push -u origin master
 git checkout -b "nombre_rama"
+git push -u origin gh-pages
+
+
+ 

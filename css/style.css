@@ -22,6 +22,7 @@ body {
 
 .skin {
   width: 98%;
+  /* max-height: 100px; */
   overflow: hidden;
   position: absolute;
   margin: auto;  
@@ -30,13 +31,14 @@ body {
 header nav{
   float: right;
   line-height: 100px;
+ 
 }
 
 header nav a{
   display: inline-block;
   color: #fff;
   text-decoration: none;
-  padding: 10px 40px;
+  padding: 10px 30px;
   line-height: normal;
   font-size: 1.2rem;
  -webkit-transition:all 500ms ease;
@@ -48,6 +50,7 @@ header nav a{
 header nav a:hover{
   background: #96ceb4;
   border-radius: 50px;
+
 }
 
 /* .header:hover::after {
@@ -80,7 +83,7 @@ header nav a:hover{
 
 .title {
   font-family: "Oswald", sans-serif;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
 
 .header-content .text {
@@ -105,7 +108,7 @@ header nav a:hover{
 .grid-3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; /* 30px 30px 30px or repeat(3, 1fr)*/
-  grid-gap: 10px;
+  grid-gap: 0px;
 }
 
 .grid-2 {
@@ -142,7 +145,7 @@ footer p {
 }
 
 /* RESPONSIVE */
-@media (max-width: 560px) {
+@media (max-width: 480px) {
   .header::after {
     height: 50vh;
   }
