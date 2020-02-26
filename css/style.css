@@ -1,8 +1,33 @@
 body {
-  background: rgba(0, 0, 0, 0.9);
+  /* background: rgba(0, 0, 0, 0.9); */
+  background: #654ea3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #eaafc8,
+    #654ea3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #eaafc8,
+    #654ea3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   margin: 0;
   color: #fff;
   font-family: "Open Sans", sans-serif;
+}
+/* .decotext{
+  display: block;
+  width: 50px;
+  background: url(../img/left.PNG) no-repeat center;
+  background-position-x: center;
+  height: 50px;
+  float: right;
+  background-size: cover;
+} */
+
+body a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .header::after {
@@ -25,32 +50,29 @@ body {
   /* max-height: 100px; */
   overflow: hidden;
   position: absolute;
-  margin: auto;  
+  margin: auto;
 }
 
-header nav{
+header nav {
   float: right;
   line-height: 100px;
- 
 }
 
-header nav a{
+header nav a {
   display: inline-block;
   color: #fff;
   text-decoration: none;
   padding: 10px 30px;
   line-height: normal;
   font-size: 1.2rem;
- -webkit-transition:all 500ms ease;
- -o-transition:all 500ms ease ;
- transition: all 500ms ease;
-
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
 }
 
-header nav a:hover{
-  background: #96ceb4;
+header nav a:hover {
+  background: #d7bde2;
   border-radius: 50px;
-
 }
 
 /* .header:hover::after {
@@ -82,8 +104,16 @@ header nav a:hover{
 }
 
 .title {
-  font-family: "Oswald", sans-serif;
+  /* font-family: "Oswald", sans-serif; */
+  font-family: 'Mali', sans-serif ;
+  /* font-family: 'Carter One', sans-serif ; */
   font-size: 3.5rem;
+}
+.subtitle {
+  /* font-family: "Oswald", sans-serif; */
+  font-family: 'Mali', sans-serif ;
+  /* font-family: 'Carter One', sans-serif ; */
+  font-size: 1.5rem;
 }
 
 .header-content .text {
